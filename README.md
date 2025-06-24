@@ -36,7 +36,7 @@ This task showcases real-world preprocessing tasks such as handling missing valu
 
 ## 📂 Project Structure
 
-- `iris_etl_pipeline.ipynb`: The Jupyter Notebook containing the complete ETL pipeline
+- `task_1.ipynb`: The Jupyter Notebook containing the complete ETL pipeline
 - `iris_processed_features.csv`: Output file containing transformed feature data
 - `iris_target.csv`: Target labels extracted from the dataset
 - `iris_preprocessor.pkl`: Saved Scikit-learn pipeline for reuse
@@ -47,7 +47,7 @@ This task showcases real-world preprocessing tasks such as handling missing valu
 ## 🔄 ETL Process Overview
 
 ### 1. Extract
-- Load the **Iris dataset** from an online source (Seaborn GitHub repo)
+- Load the **Iris dataset**
 - Perform basic data inspection and validation
 
 ### 2. Transform
@@ -77,4 +77,20 @@ This task showcases real-world preprocessing tasks such as handling missing valu
 2. Make sure you have `pandas`, `scikit-learn`, and `joblib` installed:
    ```bash
    pip install pandas scikit-learn joblib
+3. Open the notebook:
+   jupyter notebook iris_etl_pipeline.ipynb
+4. Run each cell step by step to follow the ETL process
+
+
+📚 Learning Outcomes
+Through this task, I gained hands-on experience in:
+
+1. Automating end-to-end data preprocessing workflows
+
+2. Using Scikit-learn tools like StandardScaler and ColumnTransformer
+
+3. Structuring ETL pipelines for real-world datasets
+
+4. Saving transformed datasets and preprocessing pipelines for reuse
+
 
